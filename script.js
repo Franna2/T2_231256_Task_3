@@ -1,3 +1,4 @@
+console.log(
 function appendToDisplay(value) {
     document.getElementById('display').value += value;
   }
@@ -11,4 +12,4 @@ function appendToDisplay(value) {
     let result = eval(expression);
     document.getElementById('display').value = result;
   }
-  
+  )
